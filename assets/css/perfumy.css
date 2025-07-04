@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+html {
+  scroll-padding-top: 100px; 
+}
+
+nav{
+    color: white;
+    background-color: black;
+    font-style: italic;
+    width: 100%;
+    padding: 15px 40px;
+    position: fixed;
+    top: 0;
+}
+
+.list, .list li,nav h1{
+    display: inline-block;
+}
+
+.list{
+    margin-left: 60%;
+    cursor: pointer;
+}
+
+.list li a {
+  text-decoration: none;
+  color: grey;
+  font-size: large;
+  font-weight: bolder;
+  transition: color 0.3s;
+}
+
+.list li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+input{
+    width: 60%;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.searchbar{
+    text-align: center;
+    padding: 30px;
+    margin-top: 8%;
+}
+
+@media screen and (max-width:1250px) {
+    .list{
+        margin-left: 40%;
+        
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    .list{
+        margin-left: 10%;
+        
+    }
+    .searchbar{
+        margin-top: 15%;
+    }
+    
+}
+
+.box{
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 2px;
+    display: inline-block;
+    padding: 1px;
+    text-align: center;
+    margin: 5px;
+    width: 200px;
+}
+.box p{
+    padding: 3px;
+    margin: 1px;
+}
+
+.box:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.product{
+    text-align: center;
+}
+
+.About{         
+    background-color: white;
+}
+.About h1 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+.About  ul{
+    margin-left: 3%;
+}
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
